@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/name"
+            />
+
+        <TextView
+            android:id="@+id/tvStudentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/tvName"
+            android:padding="4dp"
+            android:text=""
+            tools:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvProgramme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/programme"
+            android:padding="4dp"
+            android:layout_below="@id/tvName"/>
+
+        <TextView
+            android:id="@+id/tvStudentProgramme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvName"
+            android:layout_toEndOf="@id/tvProgramme"
+            android:padding="4dp"
+            android:text=""
+            tools:text="TextView2" />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

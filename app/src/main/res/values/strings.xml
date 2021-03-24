@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyRoomDemo</string>
+    <string name="name">Name :</string>
+    <string name="programme">Programme :</string>
+    <string name="insert">Insert</string>
+    <string name="get_data">Get data</string>
+    <string name="id">ID :</string>
+</resources>
